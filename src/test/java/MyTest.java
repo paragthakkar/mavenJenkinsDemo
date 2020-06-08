@@ -10,4 +10,9 @@ public class MyTest {
     public void test1() {
         HelloWorld.main(new String[]{"Hello", "world"});
     }
+
+    @Test
+    public void test2() {
+        HelloWorld.main(new String[]{"Hello", "world2"});
+    }
 }
